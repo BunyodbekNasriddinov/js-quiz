@@ -49,11 +49,11 @@ if (testStart) {
     result++;
   } else if (quiz5 == "a" || quiz1 == "A") {
     result++;
-    elRes.textContent = `Testlar soni: 5 ta,
-    To'g'ri javoblar soni: ${result},
-    Noto'g'ri javoblar soni: ${5 - result}`;
-    console.log(elRes.textContent);
   }
+  elRes.textContent = `Testlar soni: 5 ta,
+  To'g'ri javoblar soni: ${result},
+  Noto'g'ri javoblar soni: ${5 - result}`;
+  console.log(elRes.textContent);
 } else {
   elRes.textContent = `${userName} testni boshlash uchun pastdagi tugmaga bosing:)`;
   console.log(elRes.textContent);
